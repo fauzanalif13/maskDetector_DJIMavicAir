@@ -1,0 +1,699 @@
+23/05 14:32:44.8  INFO   18028 Application.cpp[134]         MonaServer v2.723
+23/05 14:32:44.8  INFO   18028 Application.cpp[136]         Load configuration file MonaServer.ini
+23/05 14:32:44.9  NOTE   3836 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+23/05 14:32:44.9  NOTE   3836 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+23/05 14:32:44.9  NOTE   3836 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+23/05 14:32:44.9  NOTE   3836 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+23/05 14:32:44.9  NOTE   3836 Protocols.h[82]               WS server started on 0.0.0.0:80
+23/05 14:32:44.9  NOTE   3836 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+23/05 14:32:44.9  NOTE   3836 Protocols.h[82]               WSS server started on 0.0.0.0:443
+23/05 14:32:44.9  NOTE   3836 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+25/05 12:24:01.4  INFO   1332 Application.cpp[134]          MonaServer v2.723
+25/05 12:24:01.4  INFO   1332 Application.cpp[136]          Load configuration file MonaServer.ini
+25/05 12:24:01.4  NOTE   15684 Protocols.h[82]              RTMFP server started on 0.0.0.0:1935
+25/05 12:24:01.4  NOTE   15684 Protocols.h[82]              RTMP server started on 0.0.0.0:1935
+25/05 12:24:01.4  NOTE   15684 Protocols.h[82]              RTMPS server started on 0.0.0.0:8443
+25/05 12:24:01.4  NOTE   15684 Protocols.h[82]              HTTP server started on 0.0.0.0:80
+25/05 12:24:01.4  NOTE   15684 Protocols.h[82]              WS server started on 0.0.0.0:80
+25/05 12:24:01.4  NOTE   15684 Protocols.h[82]              HTTPS server started on 0.0.0.0:443
+25/05 12:24:01.4  NOTE   15684 Protocols.h[82]              WSS server started on 0.0.0.0:443
+25/05 12:24:01.4  NOTE   15684 Protocols.h[82]              SRT server started on 0.0.0.0:9710
+25/05 12:26:27.8  ERROR  15684 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+25/05 12:26:27.8  INFO   15684 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+25/05 12:26:28.2  INFO   15684 Server.cpp[119]              1 clients
+25/05 12:26:58.4  INFO   15684 Server.cpp[119]              0 clients
+25/05 12:28:19.3  ERROR  15684 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+25/05 12:28:19.3  INFO   15684 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+25/05 12:28:20.8  INFO   15684 Server.cpp[119]              1 clients
+25/05 12:28:51.0  INFO   15684 Server.cpp[119]              0 clients
+25/05 12:30:23.5  ERROR  15684 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+25/05 12:30:23.5  INFO   15684 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+25/05 12:30:25.5  INFO   15684 Server.cpp[119]              1 clients
+25/05 12:35:48.8  INFO   15684 Server.cpp[119]              0 clients
+25/05 12:36:02.8  ERROR  15684 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+25/05 12:36:02.8  INFO   15684 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+25/05 12:36:02.9  INFO   15684 Server.cpp[119]              1 clients
+25/05 12:38:14.8  WARN   15684 Sessions.cpp[30]             sessions are deleting
+25/05 12:38:20.5  INFO   18064 Application.cpp[134]         MonaServer v2.723
+25/05 12:38:20.5  INFO   18064 Application.cpp[136]         Load configuration file MonaServer.ini
+25/05 12:38:20.5  NOTE   16148 Protocols.h[82]              RTMFP server started on 0.0.0.0:1935
+25/05 12:38:20.5  NOTE   16148 Protocols.h[82]              RTMP server started on 0.0.0.0:1935
+25/05 12:38:20.5  NOTE   16148 Protocols.h[82]              RTMPS server started on 0.0.0.0:8443
+25/05 12:38:20.5  NOTE   16148 Protocols.h[82]              HTTP server started on 0.0.0.0:80
+25/05 12:38:20.5  NOTE   16148 Protocols.h[82]              WS server started on 0.0.0.0:80
+25/05 12:38:20.5  NOTE   16148 Protocols.h[82]              HTTPS server started on 0.0.0.0:443
+25/05 12:38:20.5  NOTE   16148 Protocols.h[82]              WSS server started on 0.0.0.0:443
+25/05 12:38:20.5  NOTE   16148 Protocols.h[82]              SRT server started on 0.0.0.0:9710
+25/05 12:40:29.5  ERROR  16148 FlashMainStream.cpp[150]     Method client releaseStream not found in application /
+25/05 12:40:29.5  ERROR  16148 FlashMainStream.cpp[150]     Method client FCPublish not found in application /
+25/05 12:40:29.6  INFO   16148 Publication.cpp[128]         Publication  {append: false, duration: 0, segments: 0, server: mona} started
+25/05 12:40:29.7  INFO   16148 Publication.cpp[424]         Write  publication properties {append: false, audiocodecid: 10, audiodatarate: 125, audiosamplerate: 44100, audiosamplesize: 16, duration: 0, encoder: Lavf56.15.102, filesize: 0, height: 960, segments: 0, server: mona, stereo: false, videocodecid: 7, videodatarate: 976.5625, width: 1280}
+25/05 12:40:31.1  INFO   16148 Server.cpp[119]              1 clients
+25/05 12:40:31.3  INFO   16148 Publication.cpp[302]         Video frame dropped,  waits a key frame
+25/05 12:40:31.3  INFO   16148 Publication.cpp[302]         Video frame dropped,  waits a key frame
+25/05 12:40:31.3  INFO   16148 Publication.cpp[302]         Video frame dropped,  waits a key frame
+25/05 12:40:31.3  INFO   16148 Publication.cpp[302]         Video frame dropped,  waits a key frame
+25/05 12:40:31.3  INFO   16148 Publication.cpp[302]         Video frame dropped,  waits a key frame
+25/05 12:40:31.3  INFO   16148 Publication.cpp[302]         Video frame dropped,  waits a key frame
+25/05 12:40:31.3  INFO   16148 Publication.cpp[302]         Video frame dropped,  waits a key frame
+25/05 12:40:31.3  INFO   16148 Publication.cpp[302]         Video frame dropped,  waits a key frame
+25/05 12:40:31.3  INFO   16148 Publication.cpp[302]         Video frame dropped,  waits a key frame
+25/05 12:40:41.4  ERROR  16148 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+25/05 12:40:41.4  INFO   16148 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+25/05 12:40:43.1  INFO   16148 Server.cpp[119]              2 clients
+25/05 12:40:58.2  WARN   16148 Subscription.cpp[523]        RTMPWriter video timeout, insufficient bandwidth to play 
+25/05 12:41:21.5  WARN   16148 TCPSession.cpp[32]           RTMP 2-127.0.0.1:52297, Connection reseted (from=0.0.0.0:0, size=2048, flags=0)
+25/05 12:41:21.5  WARN   16148 TCPSession.cpp[32]           RTMP 2-127.0.0.1:52297, Connection aborted
+25/05 12:41:23.3  INFO   16148 Server.cpp[119]              1 clients
+25/05 13:44:52.3  INFO   6076 Application.cpp[134]          MonaServer v2.723
+25/05 13:44:52.3  INFO   6076 Application.cpp[136]          Load configuration file MonaServer.ini
+25/05 13:44:52.3  NOTE   14344 Protocols.h[82]              RTMFP server started on 0.0.0.0:1935
+25/05 13:44:52.3  NOTE   14344 Protocols.h[82]              RTMP server started on 0.0.0.0:1935
+25/05 13:44:52.3  NOTE   14344 Protocols.h[82]              RTMPS server started on 0.0.0.0:8443
+25/05 13:44:52.3  NOTE   14344 Protocols.h[82]              HTTP server started on 0.0.0.0:80
+25/05 13:44:52.3  NOTE   14344 Protocols.h[82]              WS server started on 0.0.0.0:80
+25/05 13:44:52.3  NOTE   14344 Protocols.h[82]              HTTPS server started on 0.0.0.0:443
+25/05 13:44:52.3  NOTE   14344 Protocols.h[82]              WSS server started on 0.0.0.0:443
+25/05 13:44:52.3  NOTE   14344 Protocols.h[82]              SRT server started on 0.0.0.0:9710
+25/05 13:44:52.8  ERROR  14344 FlashMainStream.cpp[150]     Method client releaseStream not found in application /
+25/05 13:44:52.8  ERROR  14344 FlashMainStream.cpp[150]     Method client FCPublish not found in application /
+25/05 13:44:52.9  INFO   14344 Publication.cpp[128]         Publication  {append: false, duration: 0, segments: 0, server: mona} started
+25/05 13:44:53.0  INFO   14344 Publication.cpp[424]         Write  publication properties {append: false, audiocodecid: 10, audiodatarate: 125, audiosamplerate: 44100, audiosamplesize: 16, duration: 0, encoder: Lavf56.15.102, filesize: 0, height: 960, segments: 0, server: mona, stereo: false, videocodecid: 7, videodatarate: 976.5625, width: 1280}
+25/05 13:44:54.3  INFO   14344 Server.cpp[119]              1 clients
+25/05 13:45:15.1  ERROR  14344 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+25/05 13:45:15.1  INFO   14344 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+25/05 13:45:16.4  INFO   14344 Server.cpp[119]              2 clients
+25/05 13:45:36.4  WARN   14344 TCPSession.cpp[32]           RTMP 2-127.0.0.1:52803, Connection aborted
+25/05 13:45:36.4  INFO   14344 Server.cpp[119]              1 clients
+25/05 13:49:43.1  INFO   3132 Application.cpp[134]          MonaServer v2.723
+25/05 13:49:43.1  INFO   3132 Application.cpp[136]          Load configuration file MonaServer.ini
+25/05 13:49:43.1  NOTE   17744 Protocols.h[82]              RTMFP server started on 0.0.0.0:1935
+25/05 13:49:43.1  NOTE   17744 Protocols.h[82]              RTMP server started on 0.0.0.0:1935
+25/05 13:49:43.1  NOTE   17744 Protocols.h[82]              RTMPS server started on 0.0.0.0:8443
+25/05 13:49:43.1  NOTE   17744 Protocols.h[82]              HTTP server started on 0.0.0.0:80
+25/05 13:49:43.1  NOTE   17744 Protocols.h[82]              WS server started on 0.0.0.0:80
+25/05 13:49:43.1  NOTE   17744 Protocols.h[82]              HTTPS server started on 0.0.0.0:443
+25/05 13:49:43.1  NOTE   17744 Protocols.h[82]              WSS server started on 0.0.0.0:443
+25/05 13:49:43.1  NOTE   17744 Protocols.h[82]              SRT server started on 0.0.0.0:9710
+25/05 13:49:45.5  ERROR  17744 FlashMainStream.cpp[150]     Method client releaseStream not found in application /
+25/05 13:49:45.5  ERROR  17744 FlashMainStream.cpp[150]     Method client FCPublish not found in application /
+25/05 13:49:45.6  INFO   17744 Publication.cpp[128]         Publication  {append: false, duration: 0, segments: 0, server: mona} started
+25/05 13:49:45.7  INFO   17744 Publication.cpp[424]         Write  publication properties {append: false, audiocodecid: 10, audiodatarate: 125, audiosamplerate: 44100, audiosamplesize: 16, duration: 0, encoder: Lavf56.15.102, filesize: 0, height: 960, segments: 0, server: mona, stereo: false, videocodecid: 7, videodatarate: 976.5625, width: 1280}
+25/05 13:49:47.2  INFO   17744 Server.cpp[119]              1 clients
+25/05 13:50:04.2  ERROR  17744 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+25/05 13:50:04.2  INFO   17744 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+25/05 13:50:05.2  INFO   17744 Server.cpp[119]              2 clients
+25/05 13:50:35.4  INFO   17744 Server.cpp[119]              1 clients
+25/05 13:50:51.7  WARN   17744 TCPSession.cpp[32]           RTMP 1-10.163.1.73:51424, Connection reseted (from=0.0.0.0:0, size=2048, flags=0)
+25/05 13:50:51.7  WARN   17744 TCPSession.cpp[32]           RTMP 1-10.163.1.73:51424, Connection aborted
+25/05 13:50:51.7  INFO   17744 Publication.cpp[205]         Publication  stopped
+25/05 13:50:53.4  INFO   17744 Server.cpp[119]              0 clients
+25/05 13:51:05.7  ERROR  17744 FlashMainStream.cpp[150]     Method client releaseStream not found in application /
+25/05 13:51:05.7  ERROR  17744 FlashMainStream.cpp[150]     Method client FCPublish not found in application /
+25/05 13:51:05.8  FATAL  17744 Server.cpp[133]              Server, A LUAPublication 000001D5DC6D4290 was not released properly, c:\travail\monaworkspace\monaserver2\monaserver\sources\Script.h[402]
+25/05 13:51:05.8  WARN   17744 Sessions.cpp[30]             sessions are deleting
+25/05 13:51:12.1  INFO   16516 Application.cpp[134]         MonaServer v2.723
+25/05 13:51:12.1  INFO   16516 Application.cpp[136]         Load configuration file MonaServer.ini
+25/05 13:51:12.2  NOTE   11296 Protocols.h[82]              RTMFP server started on 0.0.0.0:1935
+25/05 13:51:12.2  NOTE   11296 Protocols.h[82]              RTMP server started on 0.0.0.0:1935
+25/05 13:51:12.2  NOTE   11296 Protocols.h[82]              RTMPS server started on 0.0.0.0:8443
+25/05 13:51:12.2  NOTE   11296 Protocols.h[82]              HTTP server started on 0.0.0.0:80
+25/05 13:51:12.2  NOTE   11296 Protocols.h[82]              WS server started on 0.0.0.0:80
+25/05 13:51:12.2  NOTE   11296 Protocols.h[82]              HTTPS server started on 0.0.0.0:443
+25/05 13:51:12.2  NOTE   11296 Protocols.h[82]              WSS server started on 0.0.0.0:443
+25/05 13:51:12.2  NOTE   11296 Protocols.h[82]              SRT server started on 0.0.0.0:9710
+25/05 13:51:14.1  ERROR  11296 FlashMainStream.cpp[150]     Method client releaseStream not found in application /
+25/05 13:51:14.1  ERROR  11296 FlashMainStream.cpp[150]     Method client FCPublish not found in application /
+25/05 13:51:14.2  INFO   11296 Publication.cpp[128]         Publication  {append: false, duration: 0, segments: 0, server: mona} started
+25/05 13:51:14.2  INFO   11296 Server.cpp[119]              1 clients
+25/05 13:51:14.3  INFO   11296 Publication.cpp[424]         Write  publication properties {append: false, audiocodecid: 10, audiodatarate: 125, audiosamplerate: 44100, audiosamplesize: 16, duration: 0, encoder: Lavf56.15.102, filesize: 0, height: 960, segments: 0, server: mona, stereo: false, videocodecid: 7, videodatarate: 976.5625, width: 1280}
+25/05 13:51:24.5  ERROR  11296 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+25/05 13:51:24.5  INFO   11296 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+25/05 13:51:26.2  INFO   11296 Server.cpp[119]              2 clients
+25/05 13:51:32.6  WARN   11296 Subscription.cpp[456]        RTMPWriter audio timeout, insufficient bandwidth to play 
+25/05 13:51:57.7  WARN   11296 TCPSession.cpp[32]           RTMP 2-127.0.0.1:52900, Connection reseted (from=0.0.0.0:0, size=2048, flags=0)
+25/05 13:51:57.7  WARN   11296 TCPSession.cpp[32]           RTMP 2-127.0.0.1:52900, Connection aborted
+25/05 13:51:58.3  INFO   11296 Server.cpp[119]              1 clients
+25/05 13:52:14.5  ERROR  11296 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+25/05 13:52:14.5  INFO   11296 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+25/05 13:52:16.3  INFO   11296 Server.cpp[119]              2 clients
+25/05 13:52:22.6  WARN   11296 Subscription.cpp[523]        RTMPWriter video timeout, insufficient bandwidth to play 
+25/05 13:52:44.4  INFO   11296 Server.cpp[119]              1 clients
+30/05 13:22:45.6  INFO   4976 Application.cpp[134]          MonaServer v2.723
+30/05 13:22:45.6  INFO   4976 Application.cpp[136]          Load configuration file MonaServer.ini
+30/05 13:22:45.7  NOTE   15456 Protocols.h[82]              RTMFP server started on 0.0.0.0:1935
+30/05 13:22:45.7  NOTE   15456 Protocols.h[82]              RTMP server started on 0.0.0.0:1935
+30/05 13:22:45.7  NOTE   15456 Protocols.h[82]              RTMPS server started on 0.0.0.0:8443
+30/05 13:22:45.7  NOTE   15456 Protocols.h[82]              HTTP server started on 0.0.0.0:80
+30/05 13:22:45.7  NOTE   15456 Protocols.h[82]              WS server started on 0.0.0.0:80
+30/05 13:22:45.7  NOTE   15456 Protocols.h[82]              HTTPS server started on 0.0.0.0:443
+30/05 13:22:45.7  NOTE   15456 Protocols.h[82]              WSS server started on 0.0.0.0:443
+30/05 13:22:45.7  NOTE   15456 Protocols.h[82]              SRT server started on 0.0.0.0:9710
+31/05 17:07:49.2  INFO   9300 Application.cpp[134]          MonaServer v2.723
+31/05 17:07:49.2  INFO   9300 Application.cpp[136]          Load configuration file MonaServer.ini
+31/05 17:07:49.2  NOTE   11724 Protocols.h[82]              RTMFP server started on 0.0.0.0:1935
+31/05 17:07:49.2  NOTE   11724 Protocols.h[82]              RTMP server started on 0.0.0.0:1935
+31/05 17:07:49.2  NOTE   11724 Protocols.h[82]              RTMPS server started on 0.0.0.0:8443
+31/05 17:07:49.2  NOTE   11724 Protocols.h[82]              HTTP server started on 0.0.0.0:80
+31/05 17:07:49.2  NOTE   11724 Protocols.h[82]              WS server started on 0.0.0.0:80
+31/05 17:07:49.2  NOTE   11724 Protocols.h[82]              HTTPS server started on 0.0.0.0:443
+31/05 17:07:49.2  NOTE   11724 Protocols.h[82]              WSS server started on 0.0.0.0:443
+31/05 17:07:49.2  NOTE   11724 Protocols.h[82]              SRT server started on 0.0.0.0:9710
+31/05 17:11:07.3  ERROR  11724 FlashMainStream.cpp[150]     Method client releaseStream not found in application /
+31/05 17:11:07.3  ERROR  11724 FlashMainStream.cpp[150]     Method client FCPublish not found in application /
+31/05 17:11:07.4  INFO   11724 Publication.cpp[128]         Publication  {append: false, duration: 0, segments: 0, server: mona} started
+31/05 17:11:07.4  INFO   11724 Publication.cpp[424]         Write  publication properties {append: false, audiocodecid: 10, audiodatarate: 125, audiosamplerate: 44100, audiosamplesize: 16, duration: 0, encoder: Lavf56.15.102, filesize: 0, height: 720, segments: 0, server: mona, stereo: false, videocodecid: 7, videodatarate: 976.5625, width: 1280}
+31/05 17:11:08.1  INFO   11724 Server.cpp[119]              1 clients
+31/05 17:11:40.8  ERROR  11724 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+31/05 17:11:40.8  INFO   11724 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+31/05 17:11:42.2  INFO   11724 Server.cpp[119]              2 clients
+31/05 17:24:25.9  WARN   11724 TCPSession.cpp[32]           RTMP 1-192.168.1.2:45940, Connection aborted
+31/05 17:24:25.9  INFO   11724 Publication.cpp[205]         Publication  stopped
+31/05 17:24:26.7  INFO   11724 Server.cpp[119]              1 clients
+31/05 17:25:00.4  WARN   11724 TCPSession.cpp[32]           RTMP 2-127.0.0.1:50257, Connection aborted
+31/05 17:25:00.8  INFO   11724 Server.cpp[119]              0 clients
+31/05 22:35:17.5  INFO   8152 Application.cpp[134]          MonaServer v2.723
+31/05 22:35:17.5  INFO   8152 Application.cpp[136]          Load configuration file MonaServer.ini
+31/05 22:35:17.5  NOTE   17224 Protocols.h[82]              RTMFP server started on 0.0.0.0:1935
+31/05 22:35:17.5  NOTE   17224 Protocols.h[82]              RTMP server started on 0.0.0.0:1935
+31/05 22:35:17.5  NOTE   17224 Protocols.h[82]              RTMPS server started on 0.0.0.0:8443
+31/05 22:35:17.5  NOTE   17224 Protocols.h[82]              HTTP server started on 0.0.0.0:80
+31/05 22:35:17.5  NOTE   17224 Protocols.h[82]              WS server started on 0.0.0.0:80
+31/05 22:35:17.5  NOTE   17224 Protocols.h[82]              HTTPS server started on 0.0.0.0:443
+31/05 22:35:17.5  NOTE   17224 Protocols.h[82]              WSS server started on 0.0.0.0:443
+31/05 22:35:17.5  NOTE   17224 Protocols.h[82]              SRT server started on 0.0.0.0:9710
+31/05 22:35:44.8  ERROR  17224 FlashMainStream.cpp[150]     Method client releaseStream not found in application /
+31/05 22:35:44.8  ERROR  17224 FlashMainStream.cpp[150]     Method client FCPublish not found in application /
+31/05 22:35:44.9  INFO   17224 Publication.cpp[128]         Publication  {append: false, duration: 0, segments: 0, server: mona} started
+31/05 22:35:45.0  INFO   17224 Publication.cpp[424]         Write  publication properties {append: false, audiocodecid: 10, audiodatarate: 125, audiosamplerate: 44100, audiosamplesize: 16, duration: 0, encoder: Lavf56.15.102, filesize: 0, height: 720, segments: 0, server: mona, stereo: false, videocodecid: 7, videodatarate: 976.5625, width: 1280}
+31/05 22:35:45.2  INFO   17224 Publication.cpp[302]         Video frame dropped,  waits a key frame
+31/05 22:35:45.3  INFO   17224 Publication.cpp[302]         Video frame dropped,  waits a key frame
+31/05 22:35:45.3  INFO   17224 Publication.cpp[302]         Video frame dropped,  waits a key frame
+31/05 22:35:45.3  INFO   17224 Publication.cpp[302]         Video frame dropped,  waits a key frame
+31/05 22:35:45.3  INFO   17224 Publication.cpp[302]         Video frame dropped,  waits a key frame
+31/05 22:35:45.5  INFO   17224 Publication.cpp[302]         Video frame dropped,  waits a key frame
+31/05 22:35:45.5  INFO   17224 Publication.cpp[302]         Video frame dropped,  waits a key frame
+31/05 22:35:45.5  INFO   17224 Publication.cpp[302]         Video frame dropped,  waits a key frame
+31/05 22:35:45.5  INFO   17224 Publication.cpp[302]         Video frame dropped,  waits a key frame
+31/05 22:35:45.5  INFO   17224 Publication.cpp[302]         Video frame dropped,  waits a key frame
+31/05 22:35:45.6  INFO   17224 Server.cpp[119]              1 clients
+31/05 22:35:45.7  INFO   17224 Publication.cpp[302]         Video frame dropped,  waits a key frame
+31/05 22:35:45.7  INFO   17224 Publication.cpp[302]         Video frame dropped,  waits a key frame
+31/05 22:35:45.7  INFO   17224 Publication.cpp[302]         Video frame dropped,  waits a key frame
+31/05 22:35:45.7  INFO   17224 Publication.cpp[302]         Video frame dropped,  waits a key frame
+31/05 22:35:45.7  INFO   17224 Publication.cpp[302]         Video frame dropped,  waits a key frame
+31/05 22:35:45.9  INFO   17224 Publication.cpp[302]         Video frame dropped,  waits a key frame
+31/05 22:35:45.9  INFO   17224 Publication.cpp[302]         Video frame dropped,  waits a key frame
+31/05 22:35:45.9  INFO   17224 Publication.cpp[302]         Video frame dropped,  waits a key frame
+31/05 22:35:45.9  INFO   17224 Publication.cpp[302]         Video frame dropped,  waits a key frame
+31/05 22:35:45.9  INFO   17224 Publication.cpp[302]         Video frame dropped,  waits a key frame
+31/05 22:35:46.2  INFO   17224 Publication.cpp[302]         Video frame dropped,  waits a key frame
+31/05 22:35:46.2  INFO   17224 Publication.cpp[302]         Video frame dropped,  waits a key frame
+31/05 22:36:01.8  ERROR  17224 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+31/05 22:36:01.8  INFO   17224 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+31/05 22:36:03.7  INFO   17224 Server.cpp[119]              2 clients
+31/05 22:36:27.8  WARN   17224 Subscription.cpp[456]        RTMPWriter audio timeout, insufficient bandwidth to play 
+31/05 22:36:44.3  WARN   17224 TCPSession.cpp[32]           RTMP 2-127.0.0.1:50651, Connection reseted (address=127.0.0.1:50651, size=10, flags=0)
+31/05 22:36:44.3  WARN   17224 TCPSession.cpp[32]           RTMP 2-127.0.0.1:50651, Connection aborted
+31/05 22:36:46.0  INFO   17224 Server.cpp[119]              1 clients
+31/05 22:37:38.5  ERROR  17224 FlashMainStream.cpp[150]     Method client FCUnpublish not found in application /
+31/05 22:37:38.5  INFO   17224 Publication.cpp[205]         Publication  stopped
+31/05 22:37:40.2  INFO   17224 Server.cpp[119]              0 clients
+31/05 22:43:08.2  ERROR  17224 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+31/05 22:43:08.2  INFO   17224 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+31/05 22:43:09.5  INFO   17224 Server.cpp[119]              1 clients
+31/05 22:43:39.6  INFO   17224 Server.cpp[119]              0 clients
+03/06 19:45:43.4  INFO   8048 Application.cpp[134]          MonaServer v2.723
+03/06 19:45:43.4  INFO   8048 Application.cpp[136]          Load configuration file MonaServer.ini
+03/06 19:45:43.5  NOTE   18188 Protocols.h[82]              RTMFP server started on 0.0.0.0:1935
+03/06 19:45:43.5  NOTE   18188 Protocols.h[82]              RTMP server started on 0.0.0.0:1935
+03/06 19:45:43.5  NOTE   18188 Protocols.h[82]              RTMPS server started on 0.0.0.0:8443
+03/06 19:45:43.5  NOTE   18188 Protocols.h[82]              HTTP server started on 0.0.0.0:80
+03/06 19:45:43.5  NOTE   18188 Protocols.h[82]              WS server started on 0.0.0.0:80
+03/06 19:45:43.5  NOTE   18188 Protocols.h[82]              HTTPS server started on 0.0.0.0:443
+03/06 19:45:43.5  NOTE   18188 Protocols.h[82]              WSS server started on 0.0.0.0:443
+03/06 19:45:43.5  NOTE   18188 Protocols.h[82]              SRT server started on 0.0.0.0:9710
+03/06 19:45:44.4  ERROR  18188 FlashMainStream.cpp[150]     Method client releaseStream not found in application /
+03/06 19:45:44.4  ERROR  18188 FlashMainStream.cpp[150]     Method client FCPublish not found in application /
+03/06 19:45:44.5  INFO   18188 Publication.cpp[128]         Publication  {append: false, duration: 0, segments: 0, server: mona} started
+03/06 19:45:44.5  INFO   18188 Publication.cpp[424]         Write  publication properties {append: false, audiocodecid: 10, audiodatarate: 125, audiosamplerate: 44100, audiosamplesize: 16, duration: 0, encoder: Lavf56.15.102, filesize: 0, height: 720, segments: 0, server: mona, stereo: false, videocodecid: 7, videodatarate: 976.5625, width: 1280}
+03/06 19:45:45.5  INFO   18188 Server.cpp[119]              1 clients
+03/06 19:46:19.6  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 19:46:19.6  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 19:46:21.6  INFO   18188 Server.cpp[119]              2 clients
+03/06 19:46:23.0  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 19:46:23.0  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 19:46:23.6  INFO   18188 Server.cpp[119]              3 clients
+03/06 19:46:26.1  WARN   18188 TCPSession.cpp[32]           RTMP 2-127.0.0.1:53562, Connection aborted
+03/06 19:46:26.1  WARN   18188 TCPSession.cpp[32]           RTMP 3-127.0.0.1:53563, Connection aborted
+03/06 19:46:27.6  INFO   18188 Server.cpp[119]              1 clients
+03/06 19:48:37.7  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 19:48:37.7  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 19:48:38.0  INFO   18188 Server.cpp[119]              2 clients
+03/06 19:48:41.1  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 19:48:41.1  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 19:48:42.0  INFO   18188 Server.cpp[119]              3 clients
+03/06 19:48:44.1  WARN   18188 TCPSession.cpp[32]           RTMP 2-127.0.0.1:53568, Connection aborted
+03/06 19:48:44.1  WARN   18188 TCPSession.cpp[32]           RTMP 3-127.0.0.1:53570, Connection aborted
+03/06 19:48:46.0  INFO   18188 Server.cpp[119]              1 clients
+03/06 19:49:44.0  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 19:49:44.0  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 19:49:44.2  INFO   18188 Server.cpp[119]              2 clients
+03/06 19:49:47.2  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 19:49:47.2  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 19:49:48.2  INFO   18188 Server.cpp[119]              3 clients
+03/06 19:49:50.2  WARN   18188 TCPSession.cpp[32]           RTMP 3-127.0.0.1:53574, Connection aborted
+03/06 19:49:50.2  WARN   18188 TCPSession.cpp[32]           RTMP 2-127.0.0.1:53573, Connection aborted
+03/06 19:49:50.2  INFO   18188 Server.cpp[119]              1 clients
+03/06 19:50:13.5  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 19:50:13.5  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 19:50:14.3  INFO   18188 Server.cpp[119]              2 clients
+03/06 19:50:15.2  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 19:50:15.2  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 19:50:16.3  INFO   18188 Server.cpp[119]              3 clients
+03/06 19:50:24.4  WARN   18188 Subscription.cpp[456]        RTMPWriter audio timeout, insufficient bandwidth to play 
+03/06 19:50:30.9  WARN   18188 TCPSession.cpp[32]           RTMP 2-127.0.0.1:53576, Connection aborted
+03/06 19:50:30.9  WARN   18188 TCPSession.cpp[32]           RTMP 3-127.0.0.1:53577, Connection aborted
+03/06 19:50:32.4  INFO   18188 Server.cpp[119]              1 clients
+03/06 19:51:45.8  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 19:51:45.8  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 19:51:46.5  INFO   18188 Server.cpp[119]              2 clients
+03/06 19:51:49.3  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 19:51:49.3  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 19:51:50.5  INFO   18188 Server.cpp[119]              3 clients
+03/06 19:51:58.5  WARN   18188 Subscription.cpp[456]        RTMPWriter audio timeout, insufficient bandwidth to play 
+03/06 19:52:29.9  WARN   18188 TCPSession.cpp[32]           RTMP 3-127.0.0.1:53585, Connection aborted
+03/06 19:52:29.9  WARN   18188 TCPSession.cpp[32]           RTMP 2-127.0.0.1:53584, Connection aborted
+03/06 19:52:30.6  INFO   18188 Server.cpp[119]              1 clients
+03/06 19:54:54.1  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 19:54:54.1  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 19:54:54.8  INFO   18188 Server.cpp[119]              2 clients
+03/06 19:54:57.4  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 19:54:57.4  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 19:54:58.8  INFO   18188 Server.cpp[119]              3 clients
+03/06 19:55:06.7  WARN   18188 Subscription.cpp[456]        RTMPWriter audio timeout, insufficient bandwidth to play 
+03/06 19:55:44.1  WARN   18188 TCPSession.cpp[32]           RTMP 3-127.0.0.1:53598, Connection aborted
+03/06 19:55:44.1  WARN   18188 TCPSession.cpp[32]           RTMP 2-127.0.0.1:53597, Connection aborted
+03/06 19:55:44.9  INFO   18188 Server.cpp[119]              1 clients
+03/06 19:57:36.3  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 19:57:36.3  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 19:57:37.1  INFO   18188 Server.cpp[119]              2 clients
+03/06 19:57:39.6  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 19:57:39.6  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 19:57:41.1  INFO   18188 Server.cpp[119]              3 clients
+03/06 19:57:48.9  WARN   18188 Subscription.cpp[523]        RTMPWriter video timeout, insufficient bandwidth to play 
+03/06 19:58:20.0  WARN   18188 TCPSession.cpp[32]           RTMP 2-127.0.0.1:53626, Connection aborted
+03/06 19:58:20.0  WARN   18188 TCPSession.cpp[32]           RTMP 3-127.0.0.1:53627, Connection aborted
+03/06 19:58:21.3  INFO   18188 Server.cpp[119]              1 clients
+03/06 19:59:41.7  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 19:59:41.7  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 19:59:43.5  INFO   18188 Server.cpp[119]              2 clients
+03/06 19:59:44.7  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 19:59:44.7  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 19:59:45.5  INFO   18188 Server.cpp[119]              3 clients
+03/06 19:59:54.0  WARN   18188 Subscription.cpp[456]        RTMPWriter audio timeout, insufficient bandwidth to play 
+03/06 20:00:25.0  WARN   18188 TCPSession.cpp[32]           RTMP 3-127.0.0.1:53637, Connection reseted (address=127.0.0.1:53637, size=10, flags=0)
+03/06 20:00:25.0  WARN   18188 TCPSession.cpp[32]           RTMP 3-127.0.0.1:53637, Connection aborted
+03/06 20:00:25.0  WARN   18188 TCPSession.cpp[32]           RTMP 2-127.0.0.1:53636, Connection aborted
+03/06 20:00:25.7  INFO   18188 Server.cpp[119]              1 clients
+03/06 20:01:20.3  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 20:01:20.3  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 20:01:21.9  INFO   18188 Server.cpp[119]              2 clients
+03/06 20:01:22.8  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 20:01:22.8  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 20:01:23.9  INFO   18188 Server.cpp[119]              3 clients
+03/06 20:01:32.0  WARN   18188 Subscription.cpp[456]        RTMPWriter audio timeout, insufficient bandwidth to play 
+03/06 20:02:03.0  WARN   18188 TCPSession.cpp[32]           RTMP 2-127.0.0.1:53644, Connection aborted
+03/06 20:02:03.0  WARN   18188 TCPSession.cpp[32]           RTMP 3-127.0.0.1:53645, Connection reseted (address=127.0.0.1:53645, size=10, flags=0)
+03/06 20:02:03.0  WARN   18188 TCPSession.cpp[32]           RTMP 3-127.0.0.1:53645, Connection aborted
+03/06 20:02:04.0  INFO   18188 Server.cpp[119]              1 clients
+03/06 20:03:01.6  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 20:03:01.6  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 20:03:02.3  INFO   18188 Server.cpp[119]              2 clients
+03/06 20:03:04.9  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 20:03:04.9  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 20:03:06.3  INFO   18188 Server.cpp[119]              3 clients
+03/06 20:03:14.1  WARN   18188 Subscription.cpp[523]        RTMPWriter video timeout, insufficient bandwidth to play 
+03/06 20:03:44.9  WARN   18188 TCPSession.cpp[32]           RTMP 3-127.0.0.1:53654, Connection reseted (address=127.0.0.1:53654, size=10, flags=0)
+03/06 20:03:44.9  WARN   18188 TCPSession.cpp[32]           RTMP 3-127.0.0.1:53654, Connection aborted
+03/06 20:03:44.9  WARN   18188 TCPSession.cpp[32]           RTMP 2-127.0.0.1:53653, Connection aborted
+03/06 20:03:46.4  INFO   18188 Server.cpp[119]              1 clients
+03/06 20:04:28.0  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 20:04:28.0  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 20:04:28.5  INFO   18188 Server.cpp[119]              2 clients
+03/06 20:04:31.0  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 20:04:31.0  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 20:04:32.5  INFO   18188 Server.cpp[119]              3 clients
+03/06 20:04:40.1  WARN   18188 Subscription.cpp[523]        RTMPWriter video timeout, insufficient bandwidth to play 
+03/06 20:05:11.3  WARN   18188 TCPSession.cpp[32]           RTMP 3-127.0.0.1:53666, Connection aborted
+03/06 20:05:11.3  WARN   18188 TCPSession.cpp[32]           RTMP 2-127.0.0.1:53664, Connection aborted
+03/06 20:05:12.6  INFO   18188 Server.cpp[119]              1 clients
+03/06 20:06:12.2  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 20:06:12.2  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 20:06:12.8  INFO   18188 Server.cpp[119]              2 clients
+03/06 20:06:15.0  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 20:06:15.0  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 20:06:16.8  INFO   18188 Server.cpp[119]              3 clients
+03/06 20:06:24.2  WARN   18188 Subscription.cpp[523]        RTMPWriter video timeout, insufficient bandwidth to play 
+03/06 20:06:55.7  WARN   18188 TCPSession.cpp[32]           RTMP 3-127.0.0.1:53673, Connection aborted
+03/06 20:06:55.7  WARN   18188 TCPSession.cpp[32]           RTMP 2-127.0.0.1:53672, Connection aborted
+03/06 20:06:57.0  INFO   18188 Server.cpp[119]              1 clients
+03/06 20:07:17.4  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 20:07:17.4  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 20:07:19.1  INFO   18188 Server.cpp[119]              2 clients
+03/06 20:07:19.2  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 20:07:19.2  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 20:07:21.1  INFO   18188 Server.cpp[119]              3 clients
+03/06 20:07:26.4  WARN   18188 Subscription.cpp[456]        RTMPWriter audio timeout, insufficient bandwidth to play 
+03/06 20:08:25.2  INFO   18188 Session.cpp[129]             RTMP 3-127.0.0.1:53685 timeout connection
+03/06 20:08:25.2  INFO   18188 Server.cpp[119]              2 clients
+03/06 20:08:27.7  WARN   18188 TCPSession.cpp[32]           RTMP 2-127.0.0.1:53684, Connection aborted
+03/06 20:08:29.2  INFO   18188 Server.cpp[119]              1 clients
+03/06 20:15:47.5  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 20:15:47.5  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 20:15:48.8  INFO   18188 Server.cpp[119]              2 clients
+03/06 20:15:50.9  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 20:15:50.9  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 20:15:52.8  INFO   18188 Server.cpp[119]              3 clients
+03/06 20:16:00.0  WARN   18188 Subscription.cpp[523]        RTMPWriter video timeout, insufficient bandwidth to play 
+03/06 20:16:00.2  WARN   18188 TCPSession.cpp[32]           RTMP 3-127.0.0.1:53736, Connection aborted
+03/06 20:16:00.2  WARN   18188 TCPSession.cpp[32]           RTMP 2-127.0.0.1:53737, Connection aborted
+03/06 20:16:00.8  INFO   18188 Server.cpp[119]              1 clients
+03/06 20:17:04.7  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 20:17:04.7  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 20:17:05.0  INFO   18188 Server.cpp[119]              2 clients
+03/06 20:17:07.1  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 20:17:07.1  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 20:17:09.1  INFO   18188 Server.cpp[119]              3 clients
+03/06 20:17:16.3  WARN   18188 Subscription.cpp[523]        RTMPWriter video timeout, insufficient bandwidth to play 
+03/06 20:17:51.5  WARN   18188 TCPSession.cpp[32]           RTMP 2-127.0.0.1:53742, Connection aborted
+03/06 20:17:51.5  WARN   18188 TCPSession.cpp[32]           RTMP 3-127.0.0.1:53743, Connection aborted
+03/06 20:17:53.2  INFO   18188 Server.cpp[119]              1 clients
+03/06 20:18:24.5  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 20:18:24.5  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 20:18:25.3  INFO   18188 Server.cpp[119]              2 clients
+03/06 20:18:27.0  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 20:18:27.0  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 20:18:27.3  INFO   18188 Server.cpp[119]              3 clients
+03/06 20:18:36.3  WARN   18188 Subscription.cpp[523]        RTMPWriter video timeout, insufficient bandwidth to play 
+03/06 20:19:11.5  WARN   18188 TCPSession.cpp[32]           RTMP 2-127.0.0.1:53748, Connection aborted
+03/06 20:19:11.5  WARN   18188 TCPSession.cpp[32]           RTMP 3-127.0.0.1:53749, Connection aborted
+03/06 20:19:13.4  INFO   18188 Server.cpp[119]              1 clients
+03/06 20:23:17.3  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 20:23:17.3  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 20:23:18.2  INFO   18188 Server.cpp[119]              2 clients
+03/06 20:23:19.4  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 20:23:19.4  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 20:23:20.2  INFO   18188 Server.cpp[119]              3 clients
+03/06 20:23:26.7  WARN   18188 TCPSession.cpp[32]           RTMP 2-127.0.0.1:53770, Connection aborted
+03/06 20:23:26.7  WARN   18188 TCPSession.cpp[32]           RTMP 3-127.0.0.1:53772, Connection reseted (address=127.0.0.1:53772, size=10, flags=0)
+03/06 20:23:26.7  WARN   18188 TCPSession.cpp[32]           RTMP 3-127.0.0.1:53772, Connection aborted
+03/06 20:23:28.2  INFO   18188 Server.cpp[119]              1 clients
+03/06 20:24:15.8  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 20:24:15.8  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 20:24:16.4  INFO   18188 Server.cpp[119]              2 clients
+03/06 20:24:19.3  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 20:24:19.3  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 20:24:20.5  INFO   18188 Server.cpp[119]              3 clients
+03/06 20:24:28.7  WARN   18188 Subscription.cpp[456]        RTMPWriter audio timeout, insufficient bandwidth to play 
+03/06 20:24:29.4  WARN   18188 TCPSession.cpp[32]           RTMP 3-127.0.0.1:53784, Connection aborted
+03/06 20:24:29.4  WARN   18188 TCPSession.cpp[32]           RTMP 2-127.0.0.1:53783, Connection aborted
+03/06 20:24:30.5  INFO   18188 Server.cpp[119]              1 clients
+03/06 20:25:14.1  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 20:25:14.1  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 20:25:14.6  INFO   18188 Server.cpp[119]              2 clients
+03/06 20:25:17.4  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 20:25:17.4  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 20:25:18.6  INFO   18188 Server.cpp[119]              3 clients
+03/06 20:25:26.3  WARN   18188 TCPSession.cpp[32]           RTMP 2-127.0.0.1:53788, Connection aborted
+03/06 20:25:26.3  WARN   18188 TCPSession.cpp[32]           RTMP 3-127.0.0.1:53792, Connection reseted (address=127.0.0.1:53792, size=10, flags=0)
+03/06 20:25:26.3  WARN   18188 TCPSession.cpp[32]           RTMP 3-127.0.0.1:53792, Connection aborted
+03/06 20:25:26.7  INFO   18188 Server.cpp[119]              1 clients
+03/06 20:26:32.5  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 20:26:32.5  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 20:26:32.8  INFO   18188 Server.cpp[119]              2 clients
+03/06 20:26:35.4  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 20:26:35.4  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 20:26:36.8  INFO   18188 Server.cpp[119]              3 clients
+03/06 20:26:44.8  WARN   18188 Subscription.cpp[456]        RTMPWriter audio timeout, insufficient bandwidth to play 
+03/06 20:26:52.6  WARN   18188 TCPSession.cpp[32]           RTMP 2-127.0.0.1:53798, Connection aborted
+03/06 20:26:52.6  WARN   18188 TCPSession.cpp[32]           RTMP 3-127.0.0.1:53800, Connection aborted
+03/06 20:26:52.9  INFO   18188 Server.cpp[119]              1 clients
+03/06 20:27:21.3  WARN   18188 TCPSession.cpp[32]           RTMP 1-192.168.1.3:58429, Connection reseted (from=0.0.0.0:0, size=2048, flags=0)
+03/06 20:27:21.3  WARN   18188 TCPSession.cpp[32]           RTMP 1-192.168.1.3:58429, Connection aborted
+03/06 20:27:21.4  INFO   18188 Publication.cpp[205]         Publication  stopped
+03/06 20:27:23.0  INFO   18188 Server.cpp[119]              0 clients
+03/06 20:28:16.7  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 20:28:16.7  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 20:28:17.2  INFO   18188 Server.cpp[119]              1 clients
+03/06 20:28:47.3  INFO   18188 Server.cpp[119]              0 clients
+03/06 20:28:47.5  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 20:28:47.5  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 20:28:49.3  INFO   18188 Server.cpp[119]              1 clients
+03/06 20:29:19.2  ERROR  18188 FlashMainStream.cpp[150]     Method client releaseStream not found in application /
+03/06 20:29:19.2  ERROR  18188 FlashMainStream.cpp[150]     Method client FCPublish not found in application /
+03/06 20:29:19.4  INFO   18188 Publication.cpp[128]         Publication  {append: false, duration: 0, segments: 0, server: mona} started
+03/06 20:29:19.5  INFO   18188 Publication.cpp[424]         Write  publication properties {append: false, audiocodecid: 10, audiodatarate: 125, audiosamplerate: 44100, audiosamplesize: 16, duration: 0, encoder: Lavf56.15.102, filesize: 0, height: 720, segments: 0, server: mona, stereo: false, videocodecid: 7, videodatarate: 976.5625, width: 1280}
+03/06 20:29:21.2  INFO   18188 Publication.cpp[302]         Video frame dropped,  waits a key frame
+03/06 20:29:21.2  INFO   18188 Publication.cpp[302]         Video frame dropped,  waits a key frame
+03/06 20:29:21.2  INFO   18188 Publication.cpp[302]         Video frame dropped,  waits a key frame
+03/06 20:29:21.3  INFO   18188 Publication.cpp[302]         Video frame dropped,  waits a key frame
+03/06 20:29:21.3  INFO   18188 Publication.cpp[302]         Video frame dropped,  waits a key frame
+03/06 20:29:21.3  INFO   18188 Publication.cpp[302]         Video frame dropped,  waits a key frame
+03/06 20:29:21.3  INFO   18188 Publication.cpp[302]         Video frame dropped,  waits a key frame
+03/06 20:29:51.4  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 20:29:51.4  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 20:29:51.4  INFO   18188 Server.cpp[119]              2 clients
+03/06 20:29:54.8  ERROR  18188 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+03/06 20:29:54.8  INFO   18188 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+03/06 20:29:55.4  INFO   18188 Server.cpp[119]              3 clients
+03/06 20:30:04.1  WARN   18188 Subscription.cpp[456]        RTMPWriter audio timeout, insufficient bandwidth to play 
+03/06 20:30:07.7  WARN   18188 TCPSession.cpp[32]           RTMP 2-127.0.0.1:53815, Connection aborted
+03/06 20:30:07.7  WARN   18188 TCPSession.cpp[32]           RTMP 3-127.0.0.1:53816, Connection aborted
+03/06 20:30:09.5  INFO   18188 Server.cpp[119]              1 clients
+08/06 14:40:16.1  INFO   7368 Application.cpp[134]          MonaServer v2.723
+08/06 14:40:16.2  INFO   7368 Application.cpp[136]          Load configuration file MonaServer.ini
+08/06 14:40:16.2  NOTE   3792 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+08/06 14:40:16.2  NOTE   3792 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+08/06 14:40:16.2  NOTE   3792 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+08/06 14:40:16.2  NOTE   3792 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+08/06 14:40:16.2  NOTE   3792 Protocols.h[82]               WS server started on 0.0.0.0:80
+08/06 14:40:16.2  NOTE   3792 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+08/06 14:40:16.2  NOTE   3792 Protocols.h[82]               WSS server started on 0.0.0.0:443
+08/06 14:40:16.2  NOTE   3792 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+08/06 14:41:56.5  ERROR  3792 FlashMainStream.cpp[150]      Method client releaseStream not found in application /
+08/06 14:41:56.5  ERROR  3792 FlashMainStream.cpp[150]      Method client FCPublish not found in application /
+08/06 14:41:56.6  INFO   3792 Publication.cpp[128]          Publication  {append: false, duration: 0, segments: 0, server: mona} started
+08/06 14:41:56.7  INFO   3792 Server.cpp[119]               1 clients
+08/06 14:41:56.8  INFO   3792 Publication.cpp[424]          Write  publication properties {append: false, audiocodecid: 10, audiodatarate: 125, audiosamplerate: 44100, audiosamplesize: 16, duration: 0, encoder: Lavf56.15.102, filesize: 0, height: 720, segments: 0, server: mona, stereo: false, videocodecid: 7, videodatarate: 976.5625, width: 1280}
+08/06 14:41:57.1  INFO   3792 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 14:41:57.2  INFO   3792 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 14:41:57.2  INFO   3792 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 14:41:57.2  INFO   3792 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 14:41:57.2  INFO   3792 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 14:41:57.2  INFO   3792 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 14:41:57.2  INFO   3792 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 14:41:57.3  INFO   3792 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 14:41:57.3  INFO   3792 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 14:41:58.4  ERROR  3792 FlashMainStream.cpp[150]      Method client getStreamLength not found in application /
+08/06 14:41:58.5  INFO   3792 FlashStream.cpp[126]          setBufferTime 3000ms on stream id=1
+08/06 14:41:58.8  INFO   3792 Server.cpp[119]               2 clients
+08/06 14:42:00.7  ERROR  3792 FlashMainStream.cpp[150]      Method client getStreamLength not found in application /
+08/06 14:42:00.7  INFO   3792 FlashStream.cpp[126]          setBufferTime 3000ms on stream id=1
+08/06 14:42:00.8  INFO   3792 Server.cpp[119]               3 clients
+08/06 14:42:16.0  WARN   3792 Subscription.cpp[523]         RTMPWriter video timeout, insufficient bandwidth to play 
+08/06 14:43:13.1  INFO   3792 Session.cpp[129]              RTMP 3-127.0.0.1:54373 timeout connection
+08/06 14:43:13.1  INFO   3792 Server.cpp[119]               2 clients
+08/06 14:48:18.6  WARN   3792 TCPSession.cpp[32]            RTMP 1-192.168.245.65:44500, Connection aborted
+08/06 14:48:18.6  INFO   3792 Publication.cpp[205]          Publication  stopped
+08/06 14:48:18.7  INFO   3792 Server.cpp[119]               1 clients
+08/06 14:49:26.5  WARN   3792 TCPSession.cpp[32]            RTMP 2-127.0.0.1:54372, Connection aborted
+08/06 14:49:27.2  INFO   3792 Server.cpp[119]               0 clients
+08/06 14:53:20.9  ERROR  3792 FlashMainStream.cpp[150]      Method client getStreamLength not found in application /
+08/06 14:53:20.9  INFO   3792 FlashStream.cpp[126]          setBufferTime 3000ms on stream id=1
+08/06 14:53:22.0  INFO   3792 Server.cpp[119]               1 clients
+08/06 14:53:52.2  INFO   3792 Server.cpp[119]               0 clients
+08/06 14:53:52.5  ERROR  3792 FlashMainStream.cpp[150]      Method client getStreamLength not found in application /
+08/06 14:53:52.5  INFO   3792 FlashStream.cpp[126]          setBufferTime 3000ms on stream id=1
+08/06 14:53:54.2  INFO   3792 Server.cpp[119]               1 clients
+08/06 14:54:24.3  INFO   3792 Server.cpp[119]               0 clients
+08/06 14:55:03.3  ERROR  3792 FlashMainStream.cpp[150]      Method client getStreamLength not found in application /
+08/06 14:55:03.3  INFO   3792 FlashStream.cpp[126]          setBufferTime 3000ms on stream id=1
+08/06 14:55:04.5  INFO   3792 Server.cpp[119]               1 clients
+08/06 14:55:34.1  ERROR  3792 FlashMainStream.cpp[150]      Method client getStreamLength not found in application /
+08/06 14:55:34.1  INFO   3792 FlashStream.cpp[126]          setBufferTime 3000ms on stream id=1
+08/06 14:56:04.8  INFO   3792 Server.cpp[119]               0 clients
+08/06 14:58:06.9  INFO   18504 Application.cpp[134]         MonaServer v2.723
+08/06 14:58:06.9  INFO   18504 Application.cpp[136]         Load configuration file MonaServer.ini
+08/06 14:58:06.9  NOTE   3692 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+08/06 14:58:06.9  NOTE   3692 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+08/06 14:58:06.9  NOTE   3692 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+08/06 14:58:06.9  NOTE   3692 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+08/06 14:58:06.9  NOTE   3692 Protocols.h[82]               WS server started on 0.0.0.0:80
+08/06 14:58:06.9  NOTE   3692 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+08/06 14:58:06.9  NOTE   3692 Protocols.h[82]               WSS server started on 0.0.0.0:443
+08/06 14:58:06.9  NOTE   3692 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+08/06 15:01:08.0  ERROR  3692 FlashMainStream.cpp[150]      Method client releaseStream not found in application /
+08/06 15:01:08.0  ERROR  3692 FlashMainStream.cpp[150]      Method client FCPublish not found in application /
+08/06 15:01:08.1  INFO   3692 Publication.cpp[128]          Publication  {append: false, duration: 0, segments: 0, server: mona} started
+08/06 15:01:08.4  INFO   3692 Publication.cpp[424]          Write  publication properties {append: false, audiocodecid: 10, audiodatarate: 125, audiosamplerate: 44100, audiosamplesize: 16, duration: 0, encoder: Lavf56.15.102, filesize: 0, height: 720, segments: 0, server: mona, stereo: false, videocodecid: 7, videodatarate: 976.5625, width: 1280}
+08/06 15:01:08.6  INFO   3692 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:01:08.6  INFO   3692 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:01:08.6  INFO   3692 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:01:08.6  INFO   3692 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:01:08.7  INFO   3692 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:01:08.7  INFO   3692 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:01:08.7  INFO   3692 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:01:08.8  INFO   3692 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:01:08.8  INFO   3692 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:01:08.8  INFO   3692 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:01:08.9  INFO   3692 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:01:08.9  INFO   3692 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:01:08.9  INFO   3692 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:01:09.0  INFO   3692 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:01:09.0  INFO   3692 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:01:09.0  INFO   3692 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:01:09.1  INFO   3692 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:01:09.7  INFO   3692 Server.cpp[119]               1 clients
+08/06 15:01:34.4  ERROR  3692 FlashMainStream.cpp[150]      Method client getStreamLength not found in application /
+08/06 15:01:34.4  INFO   3692 FlashStream.cpp[126]          setBufferTime 3000ms on stream id=1
+08/06 15:01:35.9  INFO   3692 Server.cpp[119]               2 clients
+08/06 15:01:36.9  ERROR  3692 FlashMainStream.cpp[150]      Method client getStreamLength not found in application /
+08/06 15:01:36.9  INFO   3692 FlashStream.cpp[126]          setBufferTime 3000ms on stream id=1
+08/06 15:01:37.9  INFO   3692 Server.cpp[119]               3 clients
+08/06 15:01:53.1  WARN   3692 Subscription.cpp[523]         RTMPWriter video timeout, insufficient bandwidth to play 
+08/06 15:02:50.4  INFO   3692 Session.cpp[129]              RTMP 3-127.0.0.1:54575 timeout connection
+08/06 15:02:50.4  INFO   3692 Server.cpp[119]               2 clients
+08/06 15:04:14.5  WARN   3692 TCPSession.cpp[32]            RTMP 2-127.0.0.1:54574, Connection aborted
+08/06 15:04:14.7  INFO   3692 Server.cpp[119]               1 clients
+08/06 15:44:33.3  INFO   12900 Application.cpp[134]         MonaServer v2.723
+08/06 15:44:33.3  INFO   12900 Application.cpp[136]         Load configuration file MonaServer.ini
+08/06 15:44:33.4  NOTE   4596 Protocols.h[82]               RTMFP server started on 0.0.0.0:1935
+08/06 15:44:33.4  NOTE   4596 Protocols.h[82]               RTMP server started on 0.0.0.0:1935
+08/06 15:44:33.4  NOTE   4596 Protocols.h[82]               RTMPS server started on 0.0.0.0:8443
+08/06 15:44:33.4  NOTE   4596 Protocols.h[82]               HTTP server started on 0.0.0.0:80
+08/06 15:44:33.4  NOTE   4596 Protocols.h[82]               WS server started on 0.0.0.0:80
+08/06 15:44:33.4  NOTE   4596 Protocols.h[82]               HTTPS server started on 0.0.0.0:443
+08/06 15:44:33.4  NOTE   4596 Protocols.h[82]               WSS server started on 0.0.0.0:443
+08/06 15:44:33.4  NOTE   4596 Protocols.h[82]               SRT server started on 0.0.0.0:9710
+08/06 15:48:13.4  ERROR  4596 FlashMainStream.cpp[150]      Method client releaseStream not found in application /
+08/06 15:48:13.4  ERROR  4596 FlashMainStream.cpp[150]      Method client FCPublish not found in application /
+08/06 15:48:13.5  INFO   4596 Publication.cpp[128]          Publication  {append: false, duration: 0, segments: 0, server: mona} started
+08/06 15:48:13.7  INFO   4596 Publication.cpp[424]          Write  publication properties {append: false, audiocodecid: 10, audiodatarate: 125, audiosamplerate: 44100, audiosamplesize: 16, duration: 0, encoder: Lavf56.15.102, filesize: 0, height: 720, segments: 0, server: mona, stereo: false, videocodecid: 7, videodatarate: 976.5625, width: 1280}
+08/06 15:48:14.2  INFO   4596 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:48:14.2  INFO   4596 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:48:14.2  INFO   4596 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:48:14.2  INFO   4596 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:48:14.3  INFO   4596 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:48:14.3  INFO   4596 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:48:14.3  INFO   4596 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:48:14.3  INFO   4596 Server.cpp[119]               1 clients
+08/06 15:48:14.4  INFO   4596 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:48:14.4  INFO   4596 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:48:14.4  INFO   4596 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:48:14.5  INFO   4596 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:48:14.5  INFO   4596 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:48:14.5  INFO   4596 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:48:14.6  INFO   4596 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:48:14.6  INFO   4596 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:48:14.6  INFO   4596 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:48:14.7  INFO   4596 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:48:14.7  INFO   4596 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:48:14.7  INFO   4596 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:48:14.7  INFO   4596 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:48:14.8  INFO   4596 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:48:14.8  INFO   4596 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:48:14.8  INFO   4596 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:48:14.9  INFO   4596 Publication.cpp[302]          Video frame dropped,  waits a key frame
+08/06 15:48:47.4  ERROR  4596 FlashMainStream.cpp[150]      Method client getStreamLength not found in application /
+08/06 15:48:47.4  INFO   4596 FlashStream.cpp[126]          setBufferTime 3000ms on stream id=1
+08/06 15:48:48.4  INFO   4596 Server.cpp[119]               2 clients
+08/06 15:48:49.3  ERROR  4596 FlashMainStream.cpp[150]      Method client getStreamLength not found in application /
+08/06 15:48:49.3  INFO   4596 FlashStream.cpp[126]          setBufferTime 3000ms on stream id=1
+08/06 15:48:50.4  INFO   4596 Server.cpp[119]               3 clients
+08/06 15:49:04.4  WARN   4596 Subscription.cpp[456]         RTMPWriter audio timeout, insufficient bandwidth to play 
+08/06 15:50:02.7  INFO   4596 Session.cpp[129]              RTMP 3-127.0.0.1:51933 timeout connection
+08/06 15:50:02.7  INFO   4596 Server.cpp[119]               2 clients
+08/06 15:51:07.3  WARN   4596 TCPSession.cpp[32]            RTMP 2-127.0.0.1:51932, Connection aborted
+08/06 15:51:09.0  INFO   4596 Server.cpp[119]               1 clients
+08/06 16:41:32.1  INFO   9008 Application.cpp[134]          MonaServer v2.723
+08/06 16:41:32.1  INFO   9008 Application.cpp[136]          Load configuration file MonaServer.ini
+08/06 16:41:32.2  NOTE   16936 Protocols.h[82]              RTMFP server started on 0.0.0.0:1935
+08/06 16:41:32.2  NOTE   16936 Protocols.h[82]              RTMP server started on 0.0.0.0:1935
+08/06 16:41:32.2  NOTE   16936 Protocols.h[82]              RTMPS server started on 0.0.0.0:8443
+08/06 16:41:32.2  NOTE   16936 Protocols.h[82]              HTTP server started on 0.0.0.0:80
+08/06 16:41:32.2  NOTE   16936 Protocols.h[82]              WS server started on 0.0.0.0:80
+08/06 16:41:32.2  NOTE   16936 Protocols.h[82]              HTTPS server started on 0.0.0.0:443
+08/06 16:41:32.2  NOTE   16936 Protocols.h[82]              WSS server started on 0.0.0.0:443
+08/06 16:41:32.2  NOTE   16936 Protocols.h[82]              SRT server started on 0.0.0.0:9710
+08/06 16:42:38.5  INFO   16936 Server.cpp[119]              1 clients
+08/06 16:42:38.5  ERROR  16936 FlashMainStream.cpp[150]     Method client releaseStream not found in application /
+08/06 16:42:38.5  ERROR  16936 FlashMainStream.cpp[150]     Method client FCPublish not found in application /
+08/06 16:42:38.6  INFO   16936 Publication.cpp[128]         Publication  {append: false, duration: 0, segments: 0, server: mona} started
+08/06 16:42:38.6  INFO   16936 Publication.cpp[424]         Write  publication properties {append: false, audiocodecid: 10, audiodatarate: 125, audiosamplerate: 44100, audiosamplesize: 16, duration: 0, encoder: Lavf56.15.102, filesize: 0, height: 720, segments: 0, server: mona, stereo: false, videocodecid: 7, videodatarate: 976.5625, width: 1280}
+08/06 16:42:39.2  INFO   16936 Publication.cpp[302]         Video frame dropped,  waits a key frame
+08/06 16:42:39.3  INFO   16936 Publication.cpp[302]         Video frame dropped,  waits a key frame
+08/06 16:42:39.3  INFO   16936 Publication.cpp[302]         Video frame dropped,  waits a key frame
+08/06 16:42:39.3  INFO   16936 Publication.cpp[302]         Video frame dropped,  waits a key frame
+08/06 16:42:39.3  INFO   16936 Publication.cpp[302]         Video frame dropped,  waits a key frame
+08/06 16:42:39.3  INFO   16936 Publication.cpp[302]         Video frame dropped,  waits a key frame
+08/06 16:42:39.3  INFO   16936 Publication.cpp[302]         Video frame dropped,  waits a key frame
+08/06 16:42:39.3  INFO   16936 Publication.cpp[302]         Video frame dropped,  waits a key frame
+08/06 16:42:39.3  INFO   16936 Publication.cpp[302]         Video frame dropped,  waits a key frame
+08/06 16:42:39.4  INFO   16936 Publication.cpp[302]         Video frame dropped,  waits a key frame
+08/06 16:42:39.4  INFO   16936 Publication.cpp[302]         Video frame dropped,  waits a key frame
+08/06 16:42:39.5  INFO   16936 Publication.cpp[302]         Video frame dropped,  waits a key frame
+08/06 16:42:40.3  INFO   16936 Publication.cpp[302]         Video frame dropped,  waits a key frame
+08/06 16:42:40.3  INFO   16936 Publication.cpp[302]         Video frame dropped,  waits a key frame
+08/06 16:42:40.3  INFO   16936 Publication.cpp[302]         Video frame dropped,  waits a key frame
+08/06 16:42:40.3  INFO   16936 Publication.cpp[302]         Video frame dropped,  waits a key frame
+08/06 16:42:40.3  INFO   16936 Publication.cpp[302]         Video frame dropped,  waits a key frame
+08/06 16:42:40.3  INFO   16936 Publication.cpp[302]         Video frame dropped,  waits a key frame
+08/06 16:42:40.3  INFO   16936 Publication.cpp[302]         Video frame dropped,  waits a key frame
+08/06 16:42:40.3  INFO   16936 Publication.cpp[302]         Video frame dropped,  waits a key frame
+08/06 16:42:40.3  INFO   16936 Publication.cpp[302]         Video frame dropped,  waits a key frame
+08/06 16:42:40.3  INFO   16936 Publication.cpp[302]         Video frame dropped,  waits a key frame
+08/06 16:43:32.0  ERROR  16936 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+08/06 16:43:32.0  INFO   16936 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+08/06 16:43:32.7  INFO   16936 Server.cpp[119]              2 clients
+08/06 16:43:34.4  ERROR  16936 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+08/06 16:43:34.4  INFO   16936 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+08/06 16:43:34.7  INFO   16936 Server.cpp[119]              3 clients
+08/06 16:43:49.3  WARN   16936 Subscription.cpp[456]        RTMPWriter audio timeout, insufficient bandwidth to play 
+08/06 16:44:47.0  INFO   16936 Session.cpp[129]             RTMP 3-127.0.0.1:53043 timeout connection
+08/06 16:44:47.0  INFO   16936 Server.cpp[119]              2 clients
+08/06 16:55:20.4  WARN   16936 TCPSession.cpp[32]           RTMP 2-127.0.0.1:53042, Connection aborted
+08/06 16:55:21.4  INFO   16936 Server.cpp[119]              1 clients
+13/06 14:50:19.4  INFO   10580 Application.cpp[134]         MonaServer v2.723
+13/06 14:50:19.4  INFO   10580 Application.cpp[136]         Load configuration file MonaServer.ini
+13/06 14:50:19.4  NOTE   16000 Protocols.h[82]              RTMFP server started on 0.0.0.0:1935
+13/06 14:50:19.4  NOTE   16000 Protocols.h[82]              RTMP server started on 0.0.0.0:1935
+13/06 14:50:19.4  NOTE   16000 Protocols.h[82]              RTMPS server started on 0.0.0.0:8443
+13/06 14:50:19.4  NOTE   16000 Protocols.h[82]              HTTP server started on 0.0.0.0:80
+13/06 14:50:19.4  NOTE   16000 Protocols.h[82]              WS server started on 0.0.0.0:80
+13/06 14:50:19.4  NOTE   16000 Protocols.h[82]              HTTPS server started on 0.0.0.0:443
+13/06 14:50:19.4  NOTE   16000 Protocols.h[82]              WSS server started on 0.0.0.0:443
+13/06 14:50:19.4  NOTE   16000 Protocols.h[82]              SRT server started on 0.0.0.0:9710
+13/06 14:53:20.2  INFO   16000 Server.cpp[119]              1 clients
+13/06 14:53:21.0  ERROR  16000 FlashMainStream.cpp[150]     Method client releaseStream not found in application /
+13/06 14:53:21.0  ERROR  16000 FlashMainStream.cpp[150]     Method client FCPublish not found in application /
+13/06 14:53:22.8  INFO   16000 Publication.cpp[128]         Publication  {append: false, duration: 0, segments: 0, server: mona} started
+13/06 14:53:23.0  INFO   16000 Publication.cpp[424]         Write  publication properties {append: false, audiocodecid: 10, audiodatarate: 125, audiosamplerate: 44100, audiosamplesize: 16, duration: 0, encoder: Lavf56.15.102, filesize: 0, height: 720, segments: 0, server: mona, stereo: false, videocodecid: 7, videodatarate: 976.5625, width: 1280}
+13/06 14:53:23.2  INFO   16000 Publication.cpp[302]         Video frame dropped,  waits a key frame
+13/06 14:53:23.4  INFO   16000 Publication.cpp[302]         Video frame dropped,  waits a key frame
+13/06 14:53:23.5  INFO   16000 Publication.cpp[302]         Video frame dropped,  waits a key frame
+13/06 14:53:23.7  INFO   16000 Publication.cpp[302]         Video frame dropped,  waits a key frame
+13/06 14:53:23.7  INFO   16000 Publication.cpp[302]         Video frame dropped,  waits a key frame
+13/06 14:53:23.7  INFO   16000 Publication.cpp[302]         Video frame dropped,  waits a key frame
+13/06 14:53:24.2  INFO   16000 Publication.cpp[302]         Video frame dropped,  waits a key frame
+13/06 14:54:19.2  ERROR  16000 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+13/06 14:54:19.3  INFO   16000 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+13/06 14:54:20.5  INFO   16000 Server.cpp[119]              2 clients
+13/06 14:54:20.9  ERROR  16000 FlashMainStream.cpp[150]     Method client getStreamLength not found in application /
+13/06 14:54:20.9  INFO   16000 FlashStream.cpp[126]         setBufferTime 3000ms on stream id=1
+13/06 14:54:22.5  INFO   16000 Server.cpp[119]              3 clients
+13/06 14:54:38.0  WARN   16000 Subscription.cpp[456]        RTMPWriter audio timeout, insufficient bandwidth to play 
+13/06 14:55:32.8  INFO   16000 Session.cpp[129]             RTMP 3-127.0.0.1:56063 timeout connection
+13/06 14:55:32.8  INFO   16000 Server.cpp[119]              2 clients
+13/06 14:57:09.4  WARN   16000 TCPSession.cpp[32]           RTMP 2-127.0.0.1:56062, Connection aborted
+13/06 14:57:09.5  INFO   16000 Server.cpp[119]              1 clients
